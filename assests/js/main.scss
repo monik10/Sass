@@ -1,0 +1,70 @@
+$app-color:blue;
+$font-fam:"Times New Roman', Times, serif";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    // background-color:map-get($alert-color,"secondary" );--map
+    background-color: $app-color;
+    font-family:$font-fam;
+    
+
+ 
+}
+.welcome-card
+{
+background-color: #fff;
+padding: 30px;
+margin: 40px;
+border-radius: 10px;
+}
+.welcome-card h4{
+    font-size: 25px;
+}
+.welcome-card p{
+margin-top: 10px;
+color: $app-color;
+font-family: $font-lucida;
+}
+.btn
+{
+    margin-top: 10px;
+    background-color: $app-color;
+    border-radius: 5px;
+   padding: 5px 10px;
+   border: none;
+   color:#efefef
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header
+{ display: flex;
+  justify-content: space-between;
+  padding: 40px;
+
+  &-menu
+  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-link
+  {
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  & .active>a
+  {
+   color: crimson;
+   
+  }
+}

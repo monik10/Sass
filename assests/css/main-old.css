@@ -1,0 +1,38 @@
+/*Heading Style *--css reflected/
+/*! Heading style --compressed*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 139, 139, 0.5215686275);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.welcome-card {
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.welcome-card h4 {
+  font-size: 25px;
+}
+
+.welcome-card p {
+  margin-top: 10px;
+  color: orangered;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: rgba(0, 139, 139, 0.5215686275);
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  color: #efefef;
+}/*# sourceMappingURL=main-old.css.map */
